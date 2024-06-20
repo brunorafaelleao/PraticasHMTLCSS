@@ -51,4 +51,5 @@ ex: <a
           target="_blank"
           >H1</a
         >
-
+=> Para acessar uma outra página do projeto via link, dentro da tag colocar o nome do arquivo html
+ex: <a href="contato.html">H1</a>
