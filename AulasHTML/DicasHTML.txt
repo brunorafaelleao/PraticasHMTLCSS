@@ -1,1 +1,10 @@
-1) 
+1) Para trabalhar melhor os códigos é bom usar um editor de código como o VS CODE
+
+2) Extensões para melhor trabalharmos com html e css
+=> Auto Rename Tag (Jun Han)
+=> Color Highlight (Sergii N)
+=> HTML CSS Support (ecmel)
+=> Image preview (Kiss Tamás)
+=> Live Server (Ritwick Dey)
+=> One Monokai Theme (Joshua Azemoh)
+=> Prettier - Code Formatter (Prettier)
