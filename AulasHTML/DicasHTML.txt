@@ -34,3 +34,21 @@ usar a tag para abrir a lista <ol> e para cada item da lista usar a tag <li>
 
 => Não ordendas (uso de pontos, quadrados, traços etc)
 usar a tag <ul> para a abrir a lista e <li> para cada item da lista
+
+7) Hiperlinks (Como criar links em html)
+=> Para abrir link na mesma aba, usar a tag <a href="colocar o link aqui"></a> (Essa tag se chama tag âncora)
+=> Para abrir link em uma nova aba, usar a target. Segue exemplo:
+ex: <a
+          href="https://translate.google.com/?hl=pt-PT&tab=TT&sl=en&tl=pt&op=translate"
+          target="_blank"
+          >H1</a
+        >
+=> Para acessar elementos na mesma página via link, precisa atribuir um id dentro de uma tag.
+ex de atribuição do id: <p id="paragrafo-final">texto do parágrafo</p>
+Depois de atribuir o id, colocá-lo dentro dentro da tag com uso de # <a
+ex: <a
+          href="#paragrafo-final"
+          target="_blank"
+          >H1</a
+        >
+
