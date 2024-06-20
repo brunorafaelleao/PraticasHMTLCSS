@@ -1,6 +1,2 @@
-# Olá Mundo
- Primeiro repositório do curso de Git e GitHub
-
- Repositório criado durante uma aula de Git e GitHub
-
-Inseri mais uma linha
+# Práticas de front-end (HTML e CSS)
+ Repositório do curso de HTML e CSS da Hashtag
