@@ -8,3 +8,29 @@
 => Live Server (Ritwick Dey)
 => One Monokai Theme (Joshua Azemoh)
 => Prettier - Code Formatter (Prettier)
+
+3) O html usa tags para e cada uma representa um elemento da página
+ex: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula de HTML</title>
+  </head>
+  <body>
+    <h1>Introdução ao HTML</h1>
+    <H2>Elementos de Texto</H2>
+  </body>
+</html>
+
+4) <h1>, <h2>, <h3> servem para indicar títulos ou subtítulos na página.
+=> É sempre bom lembrar de usar apenas uma tag h1 por página
+
+5) Para colocar elementos em negrito e itálico usar as tags <b></b> e <i></i>
+
+6) Para uso de listas
+=> Ordenadas (uso de número do lado)
+usar a tag para abrir a lista <ol> e para cada item da lista usar a tag <li>
+
+=> Não ordendas (uso de pontos, quadrados, traços etc)
+usar a tag <ul> para a abrir a lista e <li> para cada item da lista
