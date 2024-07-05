@@ -35,6 +35,25 @@ usar a tag para abrir a lista <ol> e para cada item da lista usar a tag <li>
 => Não ordendas (uso de pontos, quadrados, traços etc)
 usar a tag <ul> para a abrir a lista e <li> para cada item da lista
 
+=> Para alterar o tipo de marcador em lista não ordenda usar dentro da tag ul type="nome do marcador".
+No exemplo a seguir, mudamos o marcador padrão para marcador no formato de um quadrado.
+ex:  <ul type="square">
+      <h3>Inteligência Artificial & Smart</h3>
+      <li>Alexa</li>
+      <li>Google Assistente</li>
+      <li>Game Optimizer</li>
+      <li>Configuração da família</li>
+    </ul>
+=> Para alterar o tipo de marcador em lista ordenda usar dentro da tag <ol type="um dos modelos 1, A, a, I, e i"
+No exemplo a seguir, mudamos o marcador padrão para um ordenamento em algarismo ronamo
+ex: <ol type="I"
+      <h3>Conexões</h3>
+      <li>4K UHD</li>
+      <li>Processador XYZ</li>
+      <li>HDR</li>
+      <li>HDMI 2.0</li>
+    </ol>
+
 7) Hiperlinks (Como criar links em html)
 => Para abrir link na mesma aba, usar a tag <a href="colocar o link aqui"></a> (Essa tag se chama tag âncora)
 => Para abrir link em uma nova aba, usar a target. Segue exemplo:
