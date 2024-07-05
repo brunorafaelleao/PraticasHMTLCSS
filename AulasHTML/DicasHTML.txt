@@ -57,6 +57,13 @@ ex: <a href="contato.html">H1</a>
 8) Inserir imagens
 => A tag para inserir imagens é <img src="" alt="" />
 src é o source (fonte da imagem)
-alt (texto alternativo, exemplo caso a imagem não carregue)
+alt (texto alternativo, exemplo caso a imagem não carregue. Esse texto fica oculto e só aparece caso a imagem não carregue)
 => pode-se trabalhar a altura da imagem ou largura usando os atributos width e higth
 ex: <img src"logo.png" alt"logomarca da empresa" width="100px" />
+=> Temos também as figuras. Essas permitem inclusive uma legenda.
+ex: <figure
+      <img src"logo.png" alt"logomarca da empresa" width="100px" />
+     <figurecaption>Logo da empresa</figurecaption> 
+    </figure>
+  obs: O figurecaption é a nossa legenda
+
