@@ -63,7 +63,7 @@ ex: <img src"logo.png" alt"logomarca da empresa" width="100px" />
 => Temos também as figuras. Essas permitem inclusive uma legenda.
 ex: <figure
       <img src"logo.png" alt"logomarca da empresa" width="100px" />
-     <figurecaption>Logo da empresa</figurecaption> 
+     <figcaption>Logo da empresa</figcaption> 
     </figure>
   obs: O figurecaption é a nossa legenda
 
