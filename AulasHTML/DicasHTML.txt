@@ -84,5 +84,14 @@ ex: <figure
       <img src"logo.png" alt"logomarca da empresa" width="100px" />
      <figcaption>Logo da empresa</figcaption> 
     </figure>
-  obs: O figurecaption é a nossa legenda
+  obs: O figcaption é a nossa legenda
+
+9) Para aplicar uma relevância ao invés de negrito, ou ênfase ao invés de itálico usar as tag <strong></strong para relevância e <em para ênfase
+ex1: <p><strong>R$ 4.999</strong> ou 12x R$416,58</p>
+Nesse exemplo o valor 4999 vai parecer estar em negrito, mas não é a mesma coisa
+ex2: <p><em>Frete Grátis</em></p> o texto'Frete Grátis' vai aparentar estar em itálico
+
+
+10) Para criar separações em uma página podemos usar as tags:
+<br (break line) ou <hr (cria uma linha para separar seções)
 
