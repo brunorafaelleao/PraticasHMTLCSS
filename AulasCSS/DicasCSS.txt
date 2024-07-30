@@ -2,10 +2,12 @@
 - in line
 - CSS interno
 - CSS externo
+
 -> Para CSS in line, após abrir uma tag podemos colocar a formatação.
 ex:
  <h1 style="color: red; font-size: 30px;">Meu título com formatação diferente</h1>
  No caso acima usamos uma formatação de cor e de fonte (tamanho) para o nosso h1 (título)
+
 -> Para CSS interno, precisamos abrir uma tag style dentro do arquivo HTML. Pode ser
 antes das tags da página.
 ex:
@@ -21,5 +23,14 @@ ex:
       Meu título com formatação diferente
     </h1>
     <p>Um texto sobre a página</p>
+
+-> Para CSS externo, criar um novo arquivo com a extensão .css e dentro desse arquivo fazer as estilizações
+ex: /* Formatação dos parágrafo */
+p{
+  font-family: Tahoma;
+  color: cadetblue;
+}
+obs: Um nome padrão é style.css
+
 
 2) 
