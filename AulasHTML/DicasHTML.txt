@@ -95,3 +95,5 @@ ex2: <p><em>Frete Grátis</em></p> o texto'Frete Grátis' vai aparentar estar em
 10) Para criar separações em uma página podemos usar as tags:
 <br (break line) ou <hr (cria uma linha para separar seções)
 
+11) 
+
