@@ -1,3 +1,14 @@
+/* Formatação H1 */
+h1{
+  color: cadetblue;
+  
+}
+
+h2{
+  color: cadetblue;
+  font-family: Tahoma;
+}
+
 /* Formatação dos parágrafo */
 p{
   font-family: Tahoma;
