@@ -1,0 +1,25 @@
+1) Existem 3 formas de escrever CSS
+- in line
+- CSS interno
+- CSS externo
+-> Para CSS in line, após abrir uma tag podemos colocar a formatação.
+ex:
+ <h1 style="color: red; font-size: 30px;">Meu título com formatação diferente</h1>
+ No caso acima usamos uma formatação de cor e de fonte (tamanho) para o nosso h1 (título)
+-> Para CSS interno, precisamos abrir uma tag style dentro do arquivo HTML. Pode ser
+antes das tags da página.
+ex:
+<body>
+    <style>
+      p {
+        color: rgb(11, 15, 236);
+        font-size: 25px;
+      }
+    </style>
+//essa tag style indica que todos os parágrafos terão cor azul e tamanho da fonte 25px
+    <h1 style="color: red; font-size: 35px">
+      Meu título com formatação diferente
+    </h1>
+    <p>Um texto sobre a página</p>
+
+2) 
