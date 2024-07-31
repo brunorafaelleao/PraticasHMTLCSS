@@ -88,7 +88,7 @@ p{font-size: 18px;}
 -> Escurecer (negrito ou peso): font-weight:
 -> Cor: color: #hexadecimal ou rgb (r, g, b)
 
-5) Para tamanho da linha
+5) Para tamanho da linha (altura)
 ->  line-height:
 
 6) Para colocar um texto em maiúsculo ou caixa alta
