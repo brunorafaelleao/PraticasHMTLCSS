@@ -33,4 +33,35 @@ p{
 obs: Um nome padrão é style.css
 
 
-2) 
+2) Seletores. Existem 3 tipos de seletores: 
+-> Tags = usados para aplicar esilos em tags de um arquivo
+HTML. 
+ex: Quando faço isso, digo que todos as tags de parágrados terão a
+formatação inserida dentro das chaves
+p{
+  font-family: Tahoma;
+  color: cadetblue;
+}
+
+-> IDs = usados para aplicar estilos em tags específicas no arquivo html.
+ex: Para aplicar um estilo a um parágrafo, após abrir a tag, inserimos o id="nomedoid". No arquivo CSS,
+formtamos esse estilo usando #nomedoid{} e dentro das chaves colocamos nossas formatações.
+No arquivo HTML: <p id="Nome-Geind">GEIND-RURAL</p>
+No arquivo CSS: #Nome-Geind{
+  font-weight: bold;
+  font-family: Lucida Sans;
+  color: coral;
+}
+
+->  Classes = usados para aplicar estilos em "blocos" de tags
+ex: No arquito HTML aplicamos o atributo class onde queremos estilizar e no arquivo CSS inicializamos a classe.
+No arquivo HTML:
+<h2 class="numoa">NUMOA-RURAL</h2>
+    <p class="numoa">Setor importante</p>
+    <p class="numoa">Setor de Monitoramento</p>
+No arquivo CSS
+.numoa {
+  font-family: Arial;
+  color: red;
+  font-weight: bold;
+}

@@ -1,16 +1,29 @@
 /* Formatação H1 */
-h1{
+h1 {
   color: cadetblue;
-  
 }
 
-h2{
+h2 {
   color: cadetblue;
   font-family: Tahoma;
 }
 
-/* Formatação dos parágrafo */
-p{
+/* Formatação dos parágrafos por tags */
+p {
   font-family: Tahoma;
   color: cadetblue;
+}
+
+/* Formatação dos parágrafos por IDs */
+#Nome-Geind {
+  font-weight: bold;
+  font-family: Lucida Sans;
+  color: coral;
+}
+
+/* Formatação dos parágrafos por classes */
+.numoa {
+  font-family: Arial;
+  color: red;
+  font-weight: bold;
 }
