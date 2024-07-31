@@ -94,6 +94,17 @@ p{font-size: 18px;}
 6) Para colocar um texto em maiúsculo ou caixa alta
 -> text-transform: uppercase;
 
+7) Para colocar um estilo de formatação em uma tag <a (link)
+ex:
+a {
+  text-decoration: dotted;
+  text-decoration-line: underline;
+  color: rgb(0, 0, 300);
+  font-weight: bold;
+}
+Obs: no exemplo acima o texto ficará em negrito, azul como sua cor, e o sublinhado é pontilhado com um a linha.
+Se quisermos sem sublinhado é só colocar text-decoration: none
+
 
 
 

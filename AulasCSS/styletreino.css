@@ -5,10 +5,11 @@ p {
   font-family: sans-serif;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   text-transform: uppercase;
 }
-
 
 h1 {
   font-size: 64px;
@@ -28,12 +29,20 @@ p {
   line-height: 1;
 }
 
+a {
+  text-decoration: dotted;
+  text-decoration-line: underline;
+  text-decoration-color: #f30d0d;
+  color: #100cf7;
+  font-weight: bold;
+}
+
 .realce {
   color: rgb(230, 13, 13);
   font-weight: bold;
   font-style: italic;
 }
 
-.caixa-alta{
+.caixa-alta {
   text-transform: uppercase;
 }
