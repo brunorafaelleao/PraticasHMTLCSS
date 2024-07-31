@@ -65,3 +65,33 @@ No arquivo CSS
   color: red;
   font-weight: bold;
 }
+
+3) Combinando seletores
+-> É possível combinar seletores tag.
+ex: Quero que meus elementos de texto tenham a mesma fonte, mas cada um terá seu tamanho diferenciado.
+h1, h2, h3, p{
+  font-family: sans-serif
+  }
+
+h1{  font-size: 64px;}
+
+h2{font-size: 32px;}
+
+h3{font-size: 20px;}
+
+p{font-size: 18px;}
+
+4) Tipos de estilização:
+-> fonte: font-family: sans-serif
+-> tamanho da fonte: font-size: 12
+-> itálico: font-style: italic;
+
+5) Para tamanho da linha
+->  line-height:
+
+6) Para colocar um texto em maiúsculo ou caixa alta
+-> text-transform: uppercase;
+
+
+
+

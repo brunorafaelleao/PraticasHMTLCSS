@@ -95,4 +95,7 @@ ex2: <p><em>Frete Grátis</em></p> o texto'Frete Grátis' vai aparentar estar em
 10) Para criar separações em uma página podemos usar as tags:
 <br (break line) ou <hr (cria uma linha para separar seções)
 
+11) Para aplicar realces que podem ser estilizados ou manipulados usar a tag <span
+ex: <p>Este é um <span style="color: red;">texto em vermelho</span> dentro de um parágrafo.</p>
+
 
