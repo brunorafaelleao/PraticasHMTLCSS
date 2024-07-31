@@ -85,6 +85,8 @@ p{font-size: 18px;}
 -> fonte: font-family: sans-serif
 -> tamanho da fonte: font-size: 12
 -> itálico: font-style: italic;
+-> Escurecer (negrito ou peso): font-weight:
+-> Cor: color: #hexadecimal ou rgb (r, g, b)
 
 5) Para tamanho da linha
 ->  line-height:
