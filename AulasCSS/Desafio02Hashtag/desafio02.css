@@ -48,3 +48,10 @@ h1 {
 .h3-conteudos-gratis {
   font-size: 23px;
 }
+
+.lista-conteudos-gratis {
+  font-size: 19px;
+  a {
+    text-decoration: none;;
+  }
+}
