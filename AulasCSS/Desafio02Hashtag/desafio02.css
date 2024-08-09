@@ -1,14 +1,37 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  color: #404040
+}
+
+
 /* Formatação de cabeçalho */
+.cabecalho-lista a {
+  text-decoration: none;
+  color: #112e61; /* Cor do link */
+}
+
+.cabecalho-lista a:visited {
+  color: #112e61; /* Cor do link visitado */
+}
+
 .cabecalho-lista {
-  a{
-    text-decoration: none;;
-  }
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #112e61;
   font-weight: 600;
 }
 
-*{
-  font-family: 'Montserrat', sans-serif;
+
+h1{
+  color: #404040;
+  font-size: 35px;
+}
+
+.p-hero{
+  font-size: 19px;
+}
+
+.p-hero-botao{
+font-size: 24px;
+text-decoration: none;
 }

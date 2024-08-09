@@ -107,6 +107,17 @@ a {
 Obs: no exemplo acima o texto ficará em negrito, azul como sua cor, e o sublinhado é pontilhado com um a linha.
 Se quisermos sem sublinhado é só colocar text-decoration: none
 
+8) Colocar uma formatação para o link visitado:
+ex:
+.cabecalho-lista a {
+  text-decoration: none;
+  color: #112e61; /* Cor do link */
+}
 
+.cabecalho-lista a:visited {
+  color: #112e61; /* Cor do link visitado */
+}
+obs: Nesse caso, o link está dentro de uma classe porque a mesma classe tem mais formatações
 
+9)
 
