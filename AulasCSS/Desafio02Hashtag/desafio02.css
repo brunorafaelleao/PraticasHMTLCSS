@@ -1,15 +1,14 @@
 /* formata todos os elementos de texto */
 * {
   font-family: "Montserrat", sans-serif;
-  color: #404040
+  color: #404040;
 }
 
 /* Formata nosso h1 */
-h1{
+h1 {
   color: #404040;
   font-size: 35px;
 }
-
 
 /* Formatação de cabeçalho */
 .cabecalho-lista a {
@@ -28,15 +27,24 @@ h1{
   font-weight: 600;
 }
 
-
 /* Formatação da seção hero */
-.p-hero{
+.p-hero {
   font-size: 19px;
 }
 
-.p-hero-botao{
-font-size: 24px;
-text-decoration: none;
+.p-hero-botao {
+  font-size: 24px;
+  text-decoration: none;
 }
 
-/* Nova seção */
+/* Seção conteúdos grátis */
+.h2-conteudos-gratis {
+  font-size: 35px;
+  spam {
+    color: #7a40be;
+  }
+}
+
+.h3-conteudos-gratis {
+  font-size: 23px;
+}
