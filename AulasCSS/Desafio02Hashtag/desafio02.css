@@ -1,3 +1,14 @@
+/* Formatação de cabeçalho */
+.cabecalho-lista {
+  a{
+    text-decoration: none;;
+  }
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #112e61;
+  font-weight: 600;
+}
+
 *{
-  color:rgb(255, 115, 0);
+  font-family: 'Montserrat', sans-serif;
 }
