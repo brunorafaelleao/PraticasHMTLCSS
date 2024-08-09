@@ -1,6 +1,13 @@
+/* formata todos os elementos de texto */
 * {
   font-family: "Montserrat", sans-serif;
   color: #404040
+}
+
+/* Formata nosso h1 */
+h1{
+  color: #404040;
+  font-size: 35px;
 }
 
 
@@ -22,11 +29,7 @@
 }
 
 
-h1{
-  color: #404040;
-  font-size: 35px;
-}
-
+/* Formatação da seção hero */
 .p-hero{
   font-size: 19px;
 }
