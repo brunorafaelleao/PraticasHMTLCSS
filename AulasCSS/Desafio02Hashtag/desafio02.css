@@ -52,7 +52,9 @@ p {
   a:visited {
     text-decoration: none;
   }
-  span {text-decoration: none;}
+  span {
+    text-decoration: none;
+  }
 }
 
 /* Seção conteúdos grátis */
@@ -99,20 +101,20 @@ p {
   }
 }
 
-.h2-oquefalam {
+.h2-oquefalam,
+.h2-comoajudar {
   font-weight: normal;
   span {
     font-weight: 600;
   }
 }
 
-
-.txt-postado{
+.txt-postado {
   font-size: 16px;
   color: #404040;
   a {
     text-decoration: none;
-    color:#f7a70c;
+    color: #f7a70c;
     font-weight: 600;
   }
 }
@@ -127,4 +129,13 @@ p {
 
 .p-blog {
   font-size: 17px;
+}
+
+.txt-comoajudar {
+  font-size: 19px;
+  a {
+    /* text-decoration: none; */
+    color: #008ff7;
+    font-weight: 600;
+  }
 }
