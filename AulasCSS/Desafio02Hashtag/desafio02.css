@@ -10,6 +10,14 @@ h1 {
   font-size: 35px;
 }
 
+h2 {
+  font-size: 35px;
+}
+
+strong {
+  font-weight: 600;
+}
+
 /* Formatação de cabeçalho */
 .cabecalho-lista a {
   text-decoration: none;
@@ -28,7 +36,8 @@ h1 {
 }
 
 /* Formatação da seção hero */
-.p-hero {
+.p-hero,
+p {
   font-size: 19px;
 }
 
@@ -52,6 +61,29 @@ h1 {
 .lista-conteudos-gratis {
   font-size: 19px;
   a {
-    text-decoration: none;;
+    text-decoration: none;
   }
+}
+
+.h3-diferenciais {
+  font-size: 24px;
+  color: #005e88;
+}
+
+.p-diferenciais {
+  font-size: 16px;
+  color:#404040;
+}
+
+.h3-diferenciais-empresas{
+  font-size: 35px;
+   a{
+    text-decoration: none;
+    color:#005e88;
+    font-weight: 600;
+   }
+   a:visited{
+    color:#005e88;
+    text-decoration: none;
+   }
 }
