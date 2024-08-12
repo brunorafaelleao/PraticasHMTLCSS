@@ -11,6 +11,7 @@ h1 {
 }
 
 h2 {
+  font-weight: normal;
   font-size: 35px;
 }
 
@@ -41,15 +42,24 @@ p {
   font-size: 19px;
 }
 
-.p-hero-botao {
+.p-botao {
+  font-weight: 600;
   font-size: 24px;
   text-decoration: none;
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  span {text-decoration: none;}
 }
 
 /* Seção conteúdos grátis */
 .h2-conteudos-gratis {
   font-size: 35px;
-  spam {
+  span {
+    font-weight: 600;
     color: #7a40be;
   }
 }
@@ -72,18 +82,26 @@ p {
 
 .p-diferenciais {
   font-size: 16px;
-  color:#404040;
+  color: #404040;
 }
 
-.h3-diferenciais-empresas{
+.h3-diferenciais-empresas {
+  font-weight: normal;
   font-size: 35px;
-   a{
+  a {
     text-decoration: none;
-    color:#005e88;
+    color: #005e88;
     font-weight: 600;
-   }
-   a:visited{
-    color:#005e88;
+  }
+  a:visited {
+    color: #005e88;
     text-decoration: none;
-   }
+  }
+}
+
+.h2-oquefalam {
+  font-weight: normal;
+  span {
+    font-weight: 600;
+  }
 }
