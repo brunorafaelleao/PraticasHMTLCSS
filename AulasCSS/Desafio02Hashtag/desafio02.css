@@ -105,3 +105,26 @@ p {
     font-weight: 600;
   }
 }
+
+
+.txt-postado{
+  font-size: 16px;
+  color: #404040;
+  a {
+    text-decoration: none;
+    color:#f7a70c;
+    font-weight: 600;
+  }
+}
+
+.h4-blog {
+  font-size: 24px;
+  font-weight: 560;
+  a {
+    text-decoration: none;
+  }
+}
+
+.p-blog {
+  font-size: 17px;
+}
