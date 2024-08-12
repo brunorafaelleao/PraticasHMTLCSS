@@ -139,3 +139,29 @@ p {
     font-weight: 600;
   }
 }
+
+.txt-rodape-principal{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.txt-rodape-secundario{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.txt-rodape-terciario{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.txt-rodape{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.link-rodape{
+  font-size: 16px;
+  color: #1a77a4;
+  text-decoration: underline;
+}
