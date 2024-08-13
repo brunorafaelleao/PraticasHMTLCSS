@@ -163,3 +163,14 @@ ex:
 -> A tag para datas é <time, mas é preciso escolher um formato e o mais usado é o americano: ano-mês-dia
 ex:
     <time datetime="24-08-13">Dia 13 de Agosto de 2024</time>
+
+17) As estruturas de uma página mais comuns são:
+<header  = é o cabeçalho de uma página
+<nav     = é uma tag que pode conter uma estrutura responspavel pela navegação na página
+<body    = é onde fica o conteúdo para ser exibido pela página
+<footer  = é o rodapé da página
+<main    = é uma tag para um conteúdo principal de uma página
+<article = é uma artigo, uma estrutura que pode estar dentro de uma main ou separada dela
+<aside   = uma estrutura independente da página, à parte
+<section = uma seção de uma página que não se enquadrou nas anteriores (elementos maiores)
+<div     = bloco sem semântica e serve para juntar elementos em forma de blocos
