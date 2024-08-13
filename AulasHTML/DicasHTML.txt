@@ -141,3 +141,25 @@ ex:
       <p>GEIND-R</p>
       <p>9298842-2607</p>
     </address>
+
+15) Códigos de linguagem de programação em uma page de HTML
+-> Para colocar um código de linguagem de programação em uma page HTML, usar a tag <code>
+ex:
+<code>function(){ console.log('Olá Mundo')}</code>
+-> Para formatar um código parecido como no console ou IDE, usar a tag <pre>
+ex:
+<pre><code>function(){ 
+      console.log('Olá Mundo')
+    }</code></pre>
+-> Se quisermos exibir um texto e uma formatação de variável, tem a tag <var
+ex:
+<p>var nome = Bruno</p>
+    <p>Para exibir a variável <var>nome</var> usa a tag var</p>
+-> Se for pra exibir atalhos de teclado tem a tag <kbd 
+ex:
+<p>Para exibir um atalho do teclado e ficar desse jeito <kbd>CTRL + C</kbd> é a tag kbd</p>
+
+16) Para usar um texto formatado como data
+-> A tag para datas é <time, mas é preciso escolher um formato e o mais usado é o americano: ano-mês-dia
+ex:
+    <time datetime="24-08-13">Dia 13 de Agosto de 2024</time>
