@@ -179,3 +179,39 @@ ex:
 -> Todo formulário deve estar dentro de uma tag <form
 ex: <form action=""></form>
 -> Dentro de action="" colocamos para onde vai as informações do nosso formulário
+-> Os formulários são colocados dentro de uma section que fica dentro de uma main
+ex:
+<main>
+      <section>
+        <form action="">
+          <input id="nome" name="nome" type="text" />
+          <input id="email" name="email" type="emial" />
+        </form>
+      </section>
+    </main> 
+
+-> Elementos básicos de um formulário:
+ex:
+ <h2>Newsletter</h2>
+        <form action=""> <!-- tag usada para formulários  -->
+          <div> <!-- tag para agrupar os elementos comuns de um formulário -->
+            <label for="nome">Nome</label> <!-- título/legenda para o nosso formulário -->
+            <input <!-- entrada e captação de dados no formulário -->
+              id="nome" <!-- identificador do input -->
+              name="nome" <!-- precisa de um nome para o input -->
+              type="text" <!--  tipo de input e aqui é um texto  -->
+              placeholder="Seu primeiro nome" <!-- dica para o que deve ser digitado dentro da caixa do input  -->
+            />
+          </div>
+
+          <div>
+            <label for="email">E-mail</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Seu melhor e-mail"
+            />
+          </div>
+          <button type="submit">Enviar</button> <!-- botão para o envio dos dados e dever ser do tipo submit e estar dentro da tag form -->
+        </form>
