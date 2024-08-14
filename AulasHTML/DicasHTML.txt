@@ -215,3 +215,27 @@ ex:
           </div>
           <button type="submit">Enviar</button> <!-- botão para o envio dos dados e dever ser do tipo submit e estar dentro da tag form -->
         </form>
+
+19) Inserir tabelas
+-> A tag para inserir tabelas é <table 
+-> A tag para cabecalho de uma tabela é <thead e cada cabeçalho usa a tag <th
+-> Para inserir uma linha em uma tabela, a tag é <tr
+-> No caso de dados de uma coluna, inserimos a tag <td dentro da linha
+para cada dado de uma coluna, usar sempre <td
+ex:
+  <main>
+      <section>
+        <table>
+          <thead>
+            <th>Cabeçalho 1</th>
+            <th>Cabeçalho 2</th>
+            <th>Cabeçalho 3</th>
+          </thead>
+          <tr>
+            <td>Informação 1</td>
+            <td>Informação 2</td>
+            <td>Informação 3</td>
+          </tr>
+        </table>
+      </section>
+    </main>
