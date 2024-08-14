@@ -174,3 +174,8 @@ ex:
 <aside   = uma estrutura independente da página, à parte
 <section = uma seção de uma página que não se enquadrou nas anteriores (elementos maiores)
 <div     = bloco sem semântica e serve para juntar elementos em forma de blocos
+
+18) Para inserir um formulário
+-> Todo formulário deve estar dentro de uma tag <form
+ex: <form action=""></form>
+-> Dentro de action="" colocamos para onde vai as informações do nosso formulário
