@@ -247,4 +247,7 @@ ex:
       </section>
     </main>
 
-20)
+20) iFrame 
+-> Quando queremos referenciar páginas, vídeos dentro do meu navegador
+-> A tag <iFrame é que faz isso 
+ex: um iFrame de um vídeo do youtube. O próprio youtube     
