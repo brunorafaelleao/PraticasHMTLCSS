@@ -99,7 +99,7 @@ ex2: <p><em>Frete Grátis</em></p> o texto'Frete Grátis' vai aparentar estar em
 ex: <p>Este é um <span style="color: red;">texto em vermelho</span> dentro de um parágrafo.</p>
 
 12) Citações
--> A tag para citações longasé <blockquote>Seu texto aqui</blockquote>
+-> A tag para citações longas é <blockquote>Seu texto aqui</blockquote>
 - Podemos colocar como atributo dessa citação o atributo <blockquote cite="https://www.lipsum.com/"> (Não vai aparecer na página)
 ex: 
  <p>Segundo fulano:</p>
@@ -127,6 +127,8 @@ ex:   <p>
         by H. Rackham.</q
       >
     </p>
+-> Se quisermos apenas marcar um texto como uma citação basta usar a tag <cite></cite> e caso
+queiramos colocar um link usaremos a tag <a>
 
 13) Abreviações
 -> Para inserir uma abreviação, no caso exibir o significado de uma abreviação que já foi mostrado anteriormente,
