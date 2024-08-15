@@ -22,7 +22,7 @@ A ideia é partir do arquivo desafio-1.html da pasta "Do zero" e transformá-lo 
 
 ##Transforme o modelo de tabela em uma tabela HTML.
 
-Lembre de como criamos contextos de navegação para referenciar o site da Wikipedia.
+##Lembre de como criamos contextos de navegação para referenciar o site da Wikipedia.
 
 ##Substitua os parágrafos utilizados para retratar o formulário pelo formulário em si.
 
