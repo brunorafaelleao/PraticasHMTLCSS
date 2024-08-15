@@ -165,15 +165,22 @@ ex:
     <time datetime="24-08-13">Dia 13 de Agosto de 2024</time>
 
 17) As estruturas de uma página mais comuns são:
+-> As 3 grandes seções são:
 <header  = é o cabeçalho de uma página
-<nav     = é uma tag que pode conter uma estrutura responspavel pela navegação na página
-<body    = é onde fica o conteúdo para ser exibido pela página
-<footer  = é o rodapé da página
 <main    = é uma tag para um conteúdo principal de uma página
+<footer  = é o rodapé da página
+-> Estruturas menores:
+<nav     = é uma tag que pode conter uma estrutura responspavel pela navegação na página
+e fica dentro do header
+<body    = é onde fica o conteúdo para ser exibido pela página
 <article = é uma artigo, uma estrutura que pode estar dentro de uma main ou separada dela
+e fica dentro da main
 <aside   = uma estrutura independente da página, à parte
+e fica dentro da main
 <section = uma seção de uma página que não se enquadrou nas anteriores (elementos maiores)
+e fica dentro da main
 <div     = bloco sem semântica e serve para juntar elementos em forma de blocos
+e fica dentro da main
 
 18) Para inserir um formulário
 -> Todo formulário deve estar dentro de uma tag <form
