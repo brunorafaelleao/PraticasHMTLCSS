@@ -124,3 +124,41 @@ obs: Nesse caso, o link está dentro de uma classe porque a mesma classe tem mai
 De Menor prioridade ao Maior prioridade:
 Universal < Tag < Classe/Pseudo-classe < ID < Inline < !important
 
+10) Margens e Padding
+-> Para escolher margens. (obs: Espaçamento externo)
+ex: Colocar margens em um parágrafo seguimos a seguinte lógica
+ <style>
+      p {
+        /* todos os lados
+        margin: 10px; */
+
+        /* em cima 10px e nos lados 25px
+        margin: 10px 25px; */
+
+        /* em cima, direita, em baixo e esquerda */
+        margin: 10px 20px 30px 40px;
+      }
+    </style>
+<div>
+   <p>Parágrafo 1</p>
+   <p>Parágrafo 2</p>
+</div>
+
+-> Para escolher Padding. (Espaçamento interno)
+ex: Semelhante a regra das margens:
+<style>
+      p {
+         padding: 10px, 200px, 100px, 4000px;
+      }
+    </style>
+    <div>
+      <p>Parágrafo 1</p>
+      <p>Parágrafo 2</p>
+    </div>
+
+obs: Para colocar uma margem ou um padding mais específico:
+ex: especificar onde quer atribuir:
+margin-right: 10px
+padding-top: 20px
+
+
