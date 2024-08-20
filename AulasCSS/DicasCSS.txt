@@ -183,6 +183,35 @@ b)medida relativas:
 - rem (sempre depende do tamanho da fonte do elemento pai html, ou seja, a maior tag)
 
 12) Pseudo-Classes
+-> Representam estados de um seletor
+as mais conhecidas:
+- hover: um tipo de realce ao passar o cursor do mouse sobre uma tag
+- tem também a link, visited e active
+ex:
+<body>
+  <style>
+    /* LVHA */
+  a:link{
+    color: goldenrod;
+  }
+  a:visited{
+    color: green;
+  }
+  a:hover{
+    color: blue;
+  }
+  a:active{
+    color: red;
+  }
+  p:hover{
+    color: red;
+    font-size: 25px;
+  }
+      
+  </style>
+  <p>Meu parágrafo</p>
+  <a href="https://www.hashtagtreinamentos.com/">site hashtagtreinamentos</a>
+</body>
 
 
 
