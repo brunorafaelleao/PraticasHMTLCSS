@@ -161,4 +161,28 @@ ex: especificar onde quer atribuir:
 margin-right: 10px
 padding-top: 20px
 
+11) Dimensões e Unidades
+-> Corresponde a largura e altura, por exemplo, de uma div
+ex:
+  <style>
+    div {
+      width: 100px;
+      height: 30px;
+      background-color: brown;
+    }
+  </style>
+
+-> Sobre unidades temos
+a)medida absoluta:
+- pixels (px)
+
+b)medida relativas:
+- vh (viewport height) - quando uso essa medida, digo que quero um percentual da altura do meu dispositivo
+- vw (viewport width)  - quando uso essa medida, digo que quero um percentual da largura do meu dispositivo
+- em (sempre depende do tamanho da fonte do elemento pai) - quando uso essa medida ele vai formatar segundo o elemento principal. Ele multiplica pelo valor do pai
+- rem (sempre depende do tamanho da fonte do elemento pai html, ou seja, a maior tag)
+
+12) Pseudo-Classes
+
+
 
