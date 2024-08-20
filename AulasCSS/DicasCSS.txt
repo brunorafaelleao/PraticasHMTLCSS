@@ -183,7 +183,7 @@ b)medida relativas:
 - rem (sempre depende do tamanho da fonte do elemento pai html, ou seja, a maior tag)
 
 12) Pseudo-Classes
--> Representam estados de um seletor
+-> Palavras-chave colocadas junto a um seletor e que representam estados de um seletor
 as mais conhecidas:
 - hover: um tipo de realce ao passar o cursor do mouse sobre uma tag
 - tem também a link, visited e active
@@ -212,6 +212,10 @@ ex:
   <p>Meu parágrafo</p>
   <a href="https://www.hashtagtreinamentos.com/">site hashtagtreinamentos</a>
 </body>
+
+13) Pseudo-elementos
+-> semelhantes as pseudo-classes e não representam um estado mas um elemento filho dele mesmo
+ex: Vamos colocar uns elementos na formatação de um Parágrafo
 
 
 
