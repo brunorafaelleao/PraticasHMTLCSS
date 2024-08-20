@@ -119,5 +119,8 @@ ex:
 }
 obs: Nesse caso, o link está dentro de uma classe porque a mesma classe tem mais formatações
 
-9)
+9) Especificidade no CSS
+-> Prioridades:
+De Menor prioridade ao Maior prioridade:
+Universal < Tag < Classe/Pseudo-classe < ID < Inline < !important
 
