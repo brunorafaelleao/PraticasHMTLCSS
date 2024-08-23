@@ -215,7 +215,43 @@ ex:
 
 13) Pseudo-elementos
 -> semelhantes as pseudo-classes e não representam um estado mas um elemento filho dele mesmo
-ex: Vamos colocar uns elementos na formatação de um Parágrafo
+ex: Vamos colocar uns elementos na formatação de um Parágrafo onde a primeira letra será formatada diferente de todo o texto,
+a primeira linha terá uma cor vemelha e depois do parágrafo terá um elemento de texto
+<style>
+      p::first-letter{
+        font-size: 25px;
+        font-weight: 500;
+      }
+      p::first-line{
+        color: red;
+      }
+      p::after{
+        content: 'Texto final';
+      }
+    </style>
 
+14) Seletor Universal
+-> Um seletor universal é representado pelo asterisco * e serve para indicar que todos os elementos terão aquele
+formato
+ex:
+* {
+        color: red;
+      }
 
-
+15) Herança de estilos
+-> Funciona quando um elemento pai (body) recebe uma formatação. Os elementos filho (p, h, a ...) que tiverem alguma formatação
+serão formatados de acordo com o pai. No exemplo abaixo, mesmo que h1 tenha qualquer outra cor, ele receberá a formatação do 
+ex:
+<style>
+      * {
+        color: red;
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        color: red;
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+    </style>
