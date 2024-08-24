@@ -256,4 +256,15 @@ ex:
       }
     </style>
 
-16) 
+16) Sombras
+-> Sobre sombras, segue o exemplo de como aplicar a uma div:
+ex:
+.div {
+        width: 20rem;
+        height: 20rem;
+        background-color: green;
+        /* desloc horizontal, desloc vertical, raio de desfoque, raio de propagação, cor */
+        box-shadow: 1rem 0.5rem 1rem 1rem rgb(196, 175, 175) ;
+      }
+obs: Para aplicar uma sombra mais interna, usar inset
+ex: box-shadow: inset 1rem 0.5rem 1rem 1rem rgb(196, 175, 175) ;
