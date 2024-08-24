@@ -268,3 +268,60 @@ ex:
       }
 obs: Para aplicar uma sombra mais interna, usar inset
 ex: box-shadow: inset 1rem 0.5rem 1rem 1rem rgb(196, 175, 175) ;
+
+17) Elementos arredondados
+-> Para arredondar uma div, usaremos a propriedade border-radius
+ex:
+.div {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 20rem;
+        height: 20rem;
+        background-color: green;
+        border-radius: 2rem;}
+obs: Para arredondar e gerar um formato circular, basta usar:
+border-radius 50%;
+
+18) Tipos de visualização
+-> A propriedade é display
+a) block -> mesmo que eu não coloque, nossas tags já estão por padrão em um bloco
+exceção da tag <a> (âncora). o block ocupa todo o espaço disponível do início ao fim.
+Se eu colocar vários blocos, eles ficam empilhados
+
+b) inline -> dentro da linha. É o caso do padrão das tags <a>. Se colocar vários inlines,
+eles ficam lado a lado
+
+c) inline-block -> Ele ocupa apenas o espaço do conteúdo e não quebra linhas
+
+
+d) none
+
+obs: margin e padding se aplicam aos blocos mas não aos inline
+
+ex:
+<style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        font-size: 62.5%;
+      }
+      h1 {
+        display: inline;
+        font-size: 3.2rem;
+      }
+      h2 {
+        display: none;
+        font-size: 2.4rem;
+      }
+      p,
+      a {
+        font-size: 1.6rem;
+      }
+      span{
+        display: inline;
+        font-style: italic;
+        color: red;
+      }
+    </style>
