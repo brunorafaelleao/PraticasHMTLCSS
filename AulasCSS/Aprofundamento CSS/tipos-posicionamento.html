@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tipos de Posicionamento</title>
+  </head>
+  <body>
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+      p {
+        position: fixed;
+        bottom: 0;
+        right: 1rem;
+      }
+      a {
+        color: inherit;
+        /* lembrar de colocar posicionamento relativo o elemento para o qual
+        quero deixar minha âncora absoluta */
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        font-size: 1.6rem;
+      }
+      .div {
+        position: relative;
+        /* top: 20rem;
+      left: 20rem; */
+        width: 30rem;
+        height: 70rem;
+        background-color: green;
+        color: white;
+      }
+      .texto-sticky {
+        position: sticky;
+        top: 2rem;
+      }
+    </style>
+    <p class="texto-sticky">Texto novo</p>
+    <div class="div">
+      <a href="">Acesse meu site</a>
+    </div>
+    <p>Parágrafo</p>
+  </body>
+</html>

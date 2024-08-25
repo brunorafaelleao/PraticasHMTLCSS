@@ -325,3 +325,86 @@ ex:
         color: red;
       }
     </style>
+
+19) Tipos de posicionamento
+a) static - ela é padrão. Quando não defino nada ele que é usado por padrão
+
+b) relative - ele pode mudar em relação ao eixo de acordo com o que eu defino
+ex: desloca do topo 20rem
+.div{
+      position: relative;
+      top: 20rem;
+      width: 20rem;
+      height: 20rem;
+      background-color: green;
+      color: brown;
+    }
+  </style>
+  <div class="div">
+    <a href="">Acesse meu site</a>
+  </div>
+
+c) absoluto - significa que o elemento fique sempre na mesma posição em relação a outro elemento
+ex: Obs: /* lembrar de colocar posicionamento relativo o elemento para o qual
+        quero deixar minha âncora absoluta */
+<body>
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+      a {
+        color: inherit;
+        /* lembrar de colocar posicionamento relativo o elemento para o qual
+        quero deixar minha âncora absoluta */
+        position: absolute;
+        bottom: 0;
+
+        font-size: 1.6rem;
+      }
+      .div {
+        position: relative;
+        /* top: 20rem;
+      left: 20rem; */
+        width: 20rem;
+        height: 20rem;
+        background-color: green;
+        color: white;
+      }
+    </style>
+    <div class="div">
+      <a href="">Acesse meu site</a>
+    </div>
+    <p>Parágrafo</p>
+  </body>
+
+d) fixed - posicionamento fixo na tela (sempre estará na posição escolhida)
+ex: indicar que meu elemento fique sempre fixado na posição esolhida
+p{
+        position: fixed;
+        bottom: 0;
+        right: 1rem;
+      }
+
+e) sticky - funciona como o fixed
+
+
+
+20) Propriedade inherit
+-> Para que um elemento herde as propriedades de um elemento maior (filho herda do pai)
+temos a propriedade inherit.
+ex: A cor do elemento será a mesma cor do maior a ele ou de onde ele está inserido
+A âncora vai herdar a cor da div em que está inserida.
+a{
+      color: inherit;
+      font-size: 1.6rem;
+    }
+    .div{
+      width: 20rem;
+      height: 20rem;
+      background-color: green;
+      color: brown;
+    }
+  </style>
+  <div class="div">
+    <a href="">Acesse meu site</a>
+  </div>
