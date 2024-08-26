@@ -408,3 +408,22 @@ a{
   <div class="div">
     <a href="">Acesse meu site</a>
   </div>
+
+21) Background color e image
+-> Para colocar um background em uma div, usar a propriedade "background-color:"
+ex:
+.div{
+  "background-color: 'nome da cor ou hexadecimal';
+}
+-> Efeito gradiente: background-image
+ex:  background-image: linear-gradient(180deg, blue, red);
+obs: um efeito gradiente, linear que tem 180 graus e começa com a cor azul e termina com a cor vermelho
+-> Colocar imagem como background, usar a propriedade background-image: url("/caminho da imagem.png")
+ex:
+.div{
+        /* background-color: #1d5205; */
+        background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png); --> caminho da imagem
+        background-position: 50%;   -->Ocupa a posição mais central ou metade da imagem
+        background-size: cover; --> Cobre toda a div ou elemento
+        background-repeat: no-repeat; --> Não repete a imagem
+        }
