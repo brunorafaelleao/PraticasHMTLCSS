@@ -253,3 +253,12 @@ ex:
 -> Quando queremos referenciar páginas, vídeos dentro do meu navegador
 -> A tag <iFrame é que faz isso 
 ex: um iFrame de um vídeo do youtube. O próprio youtube     
+
+21) Agrupamento de elementos como labels dentro de um formulário
+-> A tag que pode agrupar elementos dentro de formulários é <fieldset>.
+ex:
+ <fieldset>
+    <legend>Title</legend>
+    <input type="radio" id="radio" /> <label for="radio">Click me</label>
+  </fieldset>
+Obs: legend vai ser o título do agrupamento.
