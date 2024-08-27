@@ -427,3 +427,16 @@ ex:
         background-size: cover; --> Cobre toda a div ou elemento
         background-repeat: no-repeat; --> Não repete a imagem
         }
+
+22) Para ajustar elementos dentro de uma div de forma linear:
+ex: 
+.secao-linha {
+    padding: 10px;
+    display: flex; //alinha os blocos
+    flex-direction: row; //alinha os blocos em linha
+    border: 1px solid #adabab; //borda da  div de 1px na cor preto claro
+    border-radius: 10px; //borda arredondada
+
+    justify-content: space-between; //para alinhar o espaçamento dos elementos de forma igual dentro de uma linha de uma div
+    flex-wrap: wrap; //para fazer com que os elementos fiquem um em baixo do outro ao mudar a tela para o tamanho de um celular.
+}
