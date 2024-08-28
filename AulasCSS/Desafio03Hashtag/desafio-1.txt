@@ -1,5 +1,4 @@
-O CSS desse desafio, ou seja, a resolução, encontra-se no css .../AulasCSS/Desafio01Hashtag/desafio01.css
-
+arquivo desafio03.css
 
 
 Vamos modificar um pouco mais a página que criamos no desafio 1 do módulo de Introdução ao CSS.
@@ -8,9 +7,11 @@ Vamos usar todos os conceitos vistos nesse módulo. Vai ser ótimo para testar o
 
 Vale mencionar que, mesmo sendo um módulo de CSS, vamos alterar o HTML do arquivo também.
 
-Na parte de HTML, divida o arquivo nas seções que aprendemos na parte de estrutura dos documentos. Vai uma dica: teremos uma grande seção na página e três seções menores. Se você julgar necessário, pode adicionar classes nos elementos.
+#feito Na parte de HTML, divida o arquivo nas seções que aprendemos na parte de estrutura dos documentos. Vai uma dica:
+teremos uma grande seção na página e três seções menores. Se você julgar necessário, pode adicionar classes nos elementos.
 
-Nosso arquivo em CSS deverá iniciar com o seletor universal zerando o espaçamento interno, o espaçamento externo e ajustando o Box Model. Depois disso, use o conceito de herança de estilos para definir a fonte como Montserrat, o tamanho da fonte em 18px e a altura da linha em 1.4.
+Nosso arquivo em CSS deverá iniciar com o seletor universal zerando o espaçamento interno, o espaçamento externo e ajustando o Box Model.
+Depois disso, use o conceito de herança de estilos para definir a fonte como Montserrat, o tamanho da fonte em 18px e a altura da linha em 1.4.
 
 Vamos alterar o font size da raiz do site (root) para 10px ou o equivalente em %. Depois dessa alteração, vamos mudar TODAS as unidades do documento para rem.
 

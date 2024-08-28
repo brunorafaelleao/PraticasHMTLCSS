@@ -440,3 +440,102 @@ ex:
     justify-content: space-between; //para alinhar o espaçamento dos elementos de forma igual dentro de uma linha de uma div
     flex-wrap: wrap; //para fazer com que os elementos fiquem um em baixo do outro ao mudar a tela para o tamanho de um celular.
 }
+
+23) Para ocultar uma tag no navegador
+-> Pra ocultar uma tag, como exemplo, um <hr> no navegador podemos usar a propriedade display: none;
+ex:
+hr {
+  display: none;
+}
+
+Nesse caso, a linha do hr não vai aparecer no navegador
+
+24) Aplicar um Box Model a um documento
+-> Podemos usar o "box-sizing: border-box" ou o padrão "box-sizing: content-box"
+a diferença entre eles:
+A propriedade `box-sizing` em CSS define como o navegador deve calcular a largura e a altura de um elemento. Quando você define `box-sizing: border-box;`, está especificando que o padding e a borda do elemento devem ser incluídos na largura e altura totais do elemento.
+
+### Comportamento Padrão (`content-box`)
+
+Por padrão, o valor de `box-sizing` é `content-box`. Isso significa que o padding e a borda são adicionados à largura e altura especificadas do elemento. Por exemplo:
+
+```css
+/* Padrão: box-sizing: content-box; */
+div {
+  width: 100px;
+  padding: 10px;
+  border: 5px solid black;
+}
+```
+
+Neste caso, a largura total do `div` será `100px (largura) + 20px (padding) + 10px (borda) = 130px`.
+
+### Com `box-sizing: border-box`
+
+Quando você define `box-sizing: border-box;`, o padding e a borda são incluídos na largura e altura especificadas. Por exemplo:
+
+```css
+div {
+  box-sizing: border-box;
+  width: 100px;
+  padding: 10px;
+  border: 5px solid black;
+}
+```
+
+Neste caso, a largura total do `div` será exatamente `100px`, pois o padding e a borda são incluídos na largura especificada.
+
+### Exemplo Completo
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de box-sizing</title>
+    <style>
+        .content-box {
+            box-sizing: content-box;
+            width: 100px;
+            padding: 10px;
+            border: 5px solid black;
+            background-color: lightblue;
+            margin-bottom: 20px;
+        }
+
+        .border-box {
+            box-sizing: border-box;
+            width: 100px;
+            padding: 10px;
+            border: 5px solid black;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-box">Content Box</div>
+    <div class="border-box">Border Box</div>
+</body>
+</html>
+```
+
+### Vantagens de `box-sizing: border-box`
+
+- **Facilidade de Layout**: Facilita o cálculo de larguras e alturas, especialmente em layouts complexos.
+- **Consistência**: Garante que a largura e altura de um elemento sejam consistentes, independentemente do padding e da borda.
+- **Popularidade**: É amplamente utilizado em frameworks CSS modernos, como Bootstrap, para garantir layouts mais previsíveis.
+
+### Aplicação Global
+
+É comum aplicar `box-sizing: border-box;` globalmente para todos os elementos em um projeto:
+
+```css
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+```
+
+Isso garante que todos os elementos usem o modelo de caixa [`border-box`] tornando o layout mais previsível e fácil de gerenciar.
