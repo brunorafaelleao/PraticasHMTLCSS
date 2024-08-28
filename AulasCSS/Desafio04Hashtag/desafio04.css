@@ -1,0 +1,195 @@
+/* formata todos os elementos de texto */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #404040;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+/* Formata nosso h1 */
+h1 {
+  color: #404040;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* Formatação de cabeçalho */
+.cabecalho-lista a {
+  text-decoration: none;
+  color: #112e61; /* Cor do link */
+}
+
+/* .cabecalho-lista a:link{
+
+} */
+
+/* .cabecalho-lista a:active {
+  color: #112e61; /* Cor do link visitado 
+}*/
+
+.cabecalho-lista a:visited {
+  color: #112e61; /* Cor do link visitado */
+}
+
+.cabecalho-lista a:active,
+.cabecalho-lista a:hover {
+  color: #f60; /* Cor do link ao passar o mouse */
+}
+.cabecalho-lista {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #112e61;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+/* Formatação da seção hero */
+.p-hero,
+p {
+  font-size: 1.9rem;
+}
+
+.p-botao {
+  font-weight: 600;
+  font-size: 2.4rem;
+  text-decoration: none;
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  span {
+    text-decoration: none;
+  }
+}
+
+/* Seção conteúdos grátis */
+.h2-conteudos-gratis {
+  font-size: 3.5rem;
+  span {
+    font-weight: 600;
+    color: #7a40be;
+  }
+}
+
+.h3-conteudos-gratis {
+  font-size: 2.3rem;
+}
+
+.lista-conteudos-gratis {
+  font-size: 1.9rem;
+  a {
+    text-decoration: none;
+  }
+}
+
+.h3-diferenciais {
+  font-size: 2.4rem;
+  color: #005e88;
+}
+
+.p-diferenciais {
+  font-size: 1.6rem;
+  color: #404040;
+}
+
+.h3-diferenciais-empresas {
+  font-weight: normal;
+  font-size: 3.5rem;
+  a {
+    text-decoration: none;
+    color: #005e88;
+    font-weight: 600;
+  }
+  a:visited {
+    color: #005e88;
+    text-decoration: none;
+  }
+}
+
+.h2-oquefalam,
+.h2-comoajudar {
+  font-weight: normal;
+  span {
+    font-weight: 600;
+  }
+}
+
+.txt-postado {
+  font-size: 1.6rem;
+  color: #404040;
+  a {
+    text-decoration: none;
+    color: #f7a70c;
+    font-weight: 600;
+  }
+}
+
+.h4-blog {
+  font-size: 2.4rem;
+  font-weight: 560;
+  a {
+    text-decoration: none;
+  }
+}
+
+.p-blog {
+  font-size: 1.7rem;
+}
+
+.txt-comoajudar {
+  font-size: 1.9rem;
+  a {
+    /* text-decoration: none; */
+    color: #008ff7;
+    font-weight: 600;
+  }
+}
+
+.txt-rodape-principal {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.txt-rodape-secundario {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.txt-rodape-terciario {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.txt-rodape {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.link-rodape {
+  font-size: 1.6rem;
+  color: #1a77a4;
+  text-decoration: underline;
+}
+
+.item-lista-cabecalho-contem-filhos::after {
+  content: "\2bc6";
+}

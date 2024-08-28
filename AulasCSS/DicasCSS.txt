@@ -539,3 +539,22 @@ Neste caso, a largura total do `div` será exatamente `100px`, pois o padding e 
 ```
 
 Isso garante que todos os elementos usem o modelo de caixa [`border-box`] tornando o layout mais previsível e fácil de gerenciar.
+
+25) Ajustar parte global de uma página web (página html)
+ex:
+* {
+
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  color: #404040;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
