@@ -1,6 +1,7 @@
 O CSS desse desafio, ou seja, a resolução, encontra-se no css .../AulasCSS/Desafio01Hashtag/desafio01.css
 
 
+
 Vamos modificar um pouco mais a página que criamos no desafio 1 do módulo de Introdução ao CSS.
 
 Vamos usar todos os conceitos vistos nesse módulo. Vai ser ótimo para testar os conhecimentos que você adquiriu!
