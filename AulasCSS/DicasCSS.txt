@@ -558,3 +558,9 @@ body{
   font-size: 1.6rem;
   line-height: 1.4;
 }
+
+26) Retirar os marcadores de uma tag <ul> (retirar marcadores de uma lista)
+ex: 
+ul {
+  list-style: none;
+}

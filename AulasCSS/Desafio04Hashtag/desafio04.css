@@ -8,6 +8,9 @@ html {
   font-size: 62.5%;
 }
 
+ul {
+  list-style: none;
+}
 body {
   font-family: "Montserrat", sans-serif;
   color: #404040;
@@ -192,4 +195,13 @@ p {
 
 .item-lista-cabecalho-contem-filhos::after {
   content: "\2bc6";
+}
+
+.meu-cabecalho{
+  padding: 1.28rem 2.5rem;
+  box-shadow: 0 0.33rem 0.4rem rgba(0,0,0,0.15) ;
+  position: sticky;
+  top:0;
+  left: 0;
+  background-color: white;
 }
