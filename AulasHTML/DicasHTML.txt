@@ -184,6 +184,9 @@ e fica dentro da main
 <div     = bloco sem semântica e serve para juntar elementos em forma de blocos
 e fica dentro da main
 
+Obs: A hierarquia de estruturas em um documento é:
+header, main, section e div
+
 18) Para inserir um formulário
 -> Todo formulário deve estar dentro de uma tag <form
 ex: <form action=""></form>
