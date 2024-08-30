@@ -61,6 +61,7 @@ strong {
   color: #112e61;
   font-weight: 600;
   font-size: 1.4rem;
+  display: none;
 }
 
 /* Formatação da seção hero */
@@ -70,9 +71,16 @@ p {
 }
 
 .p-botao {
+  display: inline-block;
   font-weight: 600;
   font-size: 2.4rem;
   text-decoration: none;
+  border-radius: 2rem ;
+  background-color: red;
+  padding: 1rem 2rem;
+  border-bottom: solid 0.4rem orange;
+  border-right: solid 0.4rem orange;
+
   a {
     text-decoration: none;
   }
@@ -81,6 +89,7 @@ p {
   }
   span {
     text-decoration: none;
+    color: white;
   }
 }
 
@@ -204,4 +213,18 @@ p {
   top:0;
   left: 0;
   background-color: white;
+}
+
+.secao-hero{
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+  background-image: url("https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  max-width: 100rem;
+  margin: 0 auto;
 }
