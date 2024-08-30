@@ -16,7 +16,10 @@
               id="nome"
               name="nome"
               type="text"
-              placeholder="Seu primeiro nome"
+              pattern="[a-zA-Z]+"
+              placeholder="Seu primeiro nome (só letras)"
+              required
+              title="Esse input aceita apenas letras, não aceita números nem caracteres especiais"
             />
           </div>
 
@@ -27,6 +30,7 @@
               name="email"
               type="email"
               placeholder="Seu melhor e-mail"
+              required
             />
           </div>
           <button type="submit">Enviar</button>

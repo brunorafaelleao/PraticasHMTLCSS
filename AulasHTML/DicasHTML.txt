@@ -265,3 +265,18 @@ ex:
     <input type="radio" id="radio" /> <label for="radio">Click me</label>
   </fieldset>
 Obs: legend vai ser o título do agrupamento.
+
+22) Para validar uma informação em um formulário de input
+-> Para validar valores em um input, usar a propriedade pattern
+ex: Meu input vai aceitar apenas caracteres de letra de a - z ou A - Z (Vai aceitar apenas letras maiúsculas ou minúsculas)
+ <input
+              id="nome"
+              name="nome"
+              type="text"
+              pattern="[A-Za-z]+"
+              placeholder="Seu primeiro nome"
+            />
+Obs: No pattern precisa definir a quantidade de caracteres
+-Para dizer que um input é obrigatório, colocar a propriedade required
+-Para exibir um texto no pop do navegador explicando a regra do input, podemos usar a propriedade title.
+ex: nosso, input

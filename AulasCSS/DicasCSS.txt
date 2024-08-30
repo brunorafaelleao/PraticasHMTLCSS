@@ -564,3 +564,8 @@ ex:
 ul {
   list-style: none;
 }
+
+27) Unidades de medida svh, lvh, dvh
+-> svh : considera a menor porção de tela que temos considerando a barra de navegação
+-> lvh : considera a maior porção de tela desconsiderando a barra de navegação
+-> dvh : entre o lvh e svh. Ele recalcula sempre verificando se tá pequeno ou grande a tela.
