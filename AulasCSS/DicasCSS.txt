@@ -575,3 +575,11 @@ ex:
 ul {
   list-style: none;
 }
+
+27) Ajustar uma div ou elemento na página de modo centralizado horizontalmente:
+ex: Cria a classe ou id ou a tag e coloca o máximo de largura (max-width), depois define uma margem superior e inferior como zero
+e esquerda e direita automática (margin: 0 auto)
+.container{
+  max-width: 100rem;
+  margin: 0 auto;
+}
