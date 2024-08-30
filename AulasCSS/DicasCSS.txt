@@ -26,6 +26,17 @@ ex:
 
 -> Para CSS externo, criar um novo arquivo com a extensão .css e dentro desse arquivo fazer as estilizações
 e importar esse arquivo no nosso arquivo.html linkando com a tag: <link rel="stylesheet" href="/AulasCSS/Desafio01Hashtag/desafio01.css">
+obs: Fazer essa importação dentro do head:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Hashtag Treinamentos | Cursos de Excel, Power BI, Python e mais
+    </title>
+    <link rel="stylesheet" href="/AulasCSS/Desafio04Hashtag/desafio04.css" />
+  </head>
 ex: /* Formatação dos parágrafo */
 p{
   font-family: Tahoma;
