@@ -240,6 +240,7 @@ p {
   padding: 1.28rem 2.5rem;
   box-shadow: 0 0.33rem 0.4rem rgba(0,0,0,0.15) ;
   position: sticky;
+  z-index: 9999;
   top:0;
   left: 0;
   background-color: white;
@@ -317,4 +318,66 @@ e vertical de 1.6 e uma inclinação pra cima de -3graus */
   text-decoration: none;
   box-shadow: inset 0 0 0.4rem 0.2rem rgba(0,0,0,0.15);
 
+}
+
+.div-diferenciais{
+  background-color: #F4F5F7;
+}
+
+.caixa-diferenciais-h2{
+  border-left: solid 0.5rem #ffb20f;
+  padding: 0.52rem 0 0.52rem 2rem;
+  
+}
+
+.container-diferenciais{
+  border-radius: 5rem;
+  background-color: white;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0,0,0,0.15);
+  /* padding: 4.88rem 3.12rem; */
+}
+
+.caixa-titulo-diferenciais{
+  background-image: linear-gradient(225deg, #196b9f, #196b9f) ;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  padding: 4.88rem ;
+  color: white;
+}
+
+.caixa-diferenciais-restante{
+  padding: 4.8rem;
+}
+
+.caixa-itens-diferenciais{
+  position: relative;
+  border-radius: 2.5rem;
+  border: 1rem;
+  border-color: white;
+  box-shadow: 0 0 0.8rem 0.3rem rgba(0,0,0,0.15);
+  padding: 3.9rem 2.5rem;
+}
+
+.box-img-diferenciais{
+  display: inline-block;
+  border-radius: 2rem;
+  border: 1rem;
+  background-color: #ffaf00;
+  box-shadow: 0 0 0.8rem 0.3rem rgba(0,0,0,0.15);
+  padding: 1rem;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0,0,0,0.15);
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:0;
+  left: 50%;
+}
+
+.diferenciais-empresas {
+  text-align: center;
+}
+
+.diferenciais-empresas img{
+  height: 5rem;
+  filter: grayscale(100%);
+  opacity: 50%;
 }
