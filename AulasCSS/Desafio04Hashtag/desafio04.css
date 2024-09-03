@@ -123,7 +123,8 @@ p {
 
 /* Seção conteúdos grátis */
 .h2-conteudos-gratis {
-  font-size: 3.5rem;
+  font-size: 2.7rem;
+  line-height: 1.4;
   span {
     font-weight: 600;
     color: #7a40be;
@@ -132,6 +133,7 @@ p {
 
 .h3-conteudos-gratis {
   font-size: 2.3rem;
+
 }
 
 .lista-conteudos-gratis {
@@ -255,4 +257,64 @@ p {
 .container{
   max-width: 100rem;
   margin: 0 auto;
+}
+
+.div-conteudos-gratis{
+  background-image: url("https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-02.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.img-conteudos{
+  width: 44rem;
+
+}
+
+/* faz o meu h3 ter ficar dentro de uma caixa arredondada, roxa com degradê linear pra baixo, padding horizontal de 0.42
+e vertical de 1.6 e uma inclinação pra cima de -3graus */
+.caixa-gratuito-h3{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+  display: inline-block;
+  padding: 0.42rem 1.6rem;
+  color: white;
+  border-radius: 1rem;
+  transform: translate(-50%,-50%) rotate(-3deg);
+  box-shadow: 0 0.21rem 0.4rem rgba(0,0,0,0.15);
+}
+
+.caixa-gratuito-treinamentos{
+  position: relative;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0,0,0,0.15);
+  border-radius: 2.5rem;
+  padding: 2rem;
+}
+
+.circulo-conteudos-cursos{
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  padding: 0.52rem;
+}
+
+
+.circulo-conteudos-cursos img{
+  width: 100%;
+}
+
+.gratuito-link-lista{
+  display: inline-block;
+  padding: 0.42rem 1.6rem;
+  background-color: #eee;
+  border-radius: 1.5rem ;
+  font-size: 1.92rem;
+  text-decoration: none;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0,0,0,0.15);
+
 }
