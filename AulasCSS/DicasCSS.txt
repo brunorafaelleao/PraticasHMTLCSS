@@ -588,3 +588,12 @@ e esquerda e direita automática (margin: 0 auto)
   max-width: 100rem;
   margin: 0 auto;
 }
+
+29) Filtro de imagens escala de cinza
+-> para aplicar filtro de escala de cinza a propriedade é filter
+ex: Uma div de imagens precisará ficar em escala de cinza
+.diferenciais-empresas img{
+  height: 5rem;
+  filter: grayscale(100%);
+  opacity: 50%;
+}
