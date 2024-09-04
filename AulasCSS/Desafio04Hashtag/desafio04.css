@@ -381,3 +381,15 @@ e vertical de 1.6 e uma inclinação pra cima de -3graus */
   filter: grayscale(100%);
   opacity: 50%;
 }
+
+/* Seção o que falam */
+.secao-o-que-falam{
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-04.png);
+  background-position: 50%;
+  background-repeat: no-repeat  ;
+  background-size: cover;
+}
+
+.oquefalam-titulo{
+  color: white;
+}
