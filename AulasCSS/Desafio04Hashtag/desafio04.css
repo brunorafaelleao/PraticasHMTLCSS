@@ -473,3 +473,19 @@ e vertical de 1.6 e uma inclinação pra cima de -3graus */
   color: white;
   box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
 }
+
+
+/* secao na midia */
+.secao-na-midia{
+  padding-top: 3.9rem ;
+  padding-bottom: 3.9rem ;
+  background-image: url("https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seta-na-midia,
+.h2-na-midia{
+  display: inline-block;
+}
