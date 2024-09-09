@@ -289,3 +289,6 @@ ex:
     required
     title="Esse input aceita apenas letras, não aceita números nem caracteres especiais"
   />
+
+  23) Dialog (forma de construir pop-up em html)
+  -> Vai precisar de javascript
