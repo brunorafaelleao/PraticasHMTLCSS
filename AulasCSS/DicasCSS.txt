@@ -606,3 +606,13 @@ ex: Uma div de imagens precisará ficar em escala de cinza
 30) Flexbox
 -> é um estilo de layout em CSS para estilizar as páginas html
 -> Serve para uma distribuição melhor dos elementos
+-> Para iniciar a trabalhar com flexbox a propriedade é display: flex;
+ex:
+main {
+        display: flex;
+      }
+-> Quando acrescenta o display flex ele transforma meu elemento num flexcontainer     
+-> O flex alinha a seção(ou elemento) em linha
+-> Conceitos:
+mainaxis - eixo principal X (horizontal)
+crossaxis - parte que cruza o eixo principal (vertical)
