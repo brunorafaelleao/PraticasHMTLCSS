@@ -489,3 +489,46 @@ e vertical de 1.6 e uma inclinação pra cima de -3graus */
 .h2-na-midia{
   display: inline-block;
 }
+
+.secao-blog{
+  background-color: #f4f5f7;
+  padding: 8rem;
+}
+
+.container-blog{
+  margin-top: 1rem;
+  position: relative;
+  border-radius: 5rem;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  padding: 4.88rem;
+}
+
+.caixa-blog-h2{
+  font: 3.5rem;
+  color: white;
+  font-weight: 40rem;
+  margin-top: -25px;
+  padding: 0.7rem 2.5rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -30%) rotate(-3deg);
+  background-image: linear-gradient(90deg, #feb914, #f6a50b);
+  text-wrap: nowrap;
+  border-radius: 1rem;
+  width: max-content;
+}
+
+.caixa-post-blog{
+  display: inline-block;
+  border-radius: 2.5rem;
+  box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  padding: 2rem ;
+  width: 35% ;
+  text-decoration: none;
+}
+
+.caixa-post-blog img{
+  width: 100%;
+}
