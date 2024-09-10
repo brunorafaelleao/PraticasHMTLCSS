@@ -602,3 +602,7 @@ ex: Uma div de imagens precisará ficar em escala de cinza
   filter: grayscale(100%);
   opacity: 50%;
 }
+
+30) Flexbox
+-> é um estilo de layout em CSS para estilizar as páginas html
+-> Serve para uma distribuição melhor dos elementos
