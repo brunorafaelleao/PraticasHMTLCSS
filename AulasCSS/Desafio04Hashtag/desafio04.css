@@ -32,7 +32,16 @@ h2 {
 
 strong {
   font-weight: 600;
+
 }
+
+input{
+  padding: 1.02rem;
+  background-color: white;
+  box-shadow: inset 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15);
+  border: 0;
+  border-radius: 0.8rem;
+ }
 
 /* Formatação de cabeçalho */
 .cabecalho-lista a {
@@ -578,4 +587,33 @@ padding: 7.63rem 2rem;
 .como-ajudar-lista a:hover,
 .como-ajudar-lista a:active{
   color: #0056b3;
+}
+
+.secao-minicurso{
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-banner-08_1.png);
+  background-position: 50%;
+  background-repeat: no-repeat ;
+  background-size: cover;
+  color: white;
+}
+
+.botao-minicurso{
+  background: #ffba29;
+  border-radius: 5rem;
+  padding: 0.65rem 2.5rem;
+  color: white;
+  border: 0;
+  border-right: solid 5px #664a10;
+  border-bottom: solid 5px #664a10;
+  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, .3);
+}
+
+.botao-minicurso:hover{
+  background: #ffba29;
+  border-radius: 5rem;
+  color: white;
+  border: 0;
+  border-right: #ffba29;
+  border-bottom: #ffba29;
+  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, .3);
 }
