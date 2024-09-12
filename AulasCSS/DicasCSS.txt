@@ -617,3 +617,83 @@ main {
 mainaxis - eixo principal X (horizontal)
 crossaxis - parte que cruza o eixo principal (vertical)
 
+31) Espaçamento entre os flexbox (gap)
+-> o espaçamento deve ser colocado dentro do box principal
+-> Para um espaçamento horizontal é a propriedade  gap.
+ex: 
+  main {
+        display: flex;
+        gap: 2rem;
+      }
+
+32) Mudar a direção de um flexbox:
+-> Propriedade flex-direction: (por padrão ela é row) no exemplo abaixo vamos deixar nossos elementos em coluna (column)
+ex:
+ main {
+        display: flex;
+        gap: 4rem;
+        flex-direction: column;
+      }
+
+33) Quebrar um texto dentro de um flexbox
+-> usar o flex-wrap
+ex:
+
+34) Como mudar o tamanho de um flexbox
+-> Flexbasis = Com essa propriedade conseguimos fazer com que os elementos dentro de um flexbox tenham um tamanho mínimo
+ex:
+main {
+        display: flex;
+        gap: 4rem;
+        flex-direction: row;
+        /* flex-flow: row wrap; */
+        flex-wrap: wrap;
+      }
+
+      section{
+        background-color: aqua;
+        flex-basis: 70rem;
+
+      }
+
+-> flex-grow = Com essa propriedade eu distribuo os meus elementos desloc flexbox de acordo com a proporção
+de espaço definido no Flexbasis
+ex: minhas 3 seções terão suas dimensões da seguinte maneira: a primeira seção terá o dobro do espaço 
+disponível para si. As outras apenas uma porção do espaço
+section {
+        flex-grow: 1;
+        flex-basis: 20rem;
+      }
+
+      section:first-child {
+        background-color: aqua;
+        flex-grow: 2;
+      }
+
+      section:nth-child(2) {
+        background-color: royalblue;
+      }
+      section:last-child {
+        background-color: rgb(169, 225, 65);
+      }
+
+-> Flex = com essa propriedade defino um tamanho único que faz a mesma coisa que flexbasis e o flex-grow juntos.
+ex: no exemplo abaixo o elemento pai tem flex: 1. Quando colocamos o primeiro filho (first-child) como flex: 2
+digo que ele vai ter 2 vezes o espaço dos outros
+section {
+        /* flex-grow: 1;
+        flex-basis: 20rem; */
+        flex: 1;
+      }
+
+      section:first-child {
+        background-color: aqua;
+        flex: 2;
+      }
+
+      section:nth-child(2) {
+        background-color: royalblue;
+      }
+      section:last-child {
+        background-color: rgb(169, 225, 65);
+      }

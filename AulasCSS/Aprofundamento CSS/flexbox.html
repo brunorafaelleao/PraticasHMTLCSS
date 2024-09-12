@@ -31,6 +31,28 @@
 
       main {
         display: flex;
+        gap: 4rem;
+        flex-direction: row;
+        /* flex-flow: row wrap; */
+        flex-wrap: nowrap;
+      }
+
+      section {
+        /* flex-grow: 1;
+        flex-basis: 20rem; */
+        flex: 1;
+      }
+
+      section:first-child {
+        background-color: aqua;
+        flex: 2;
+      }
+
+      section:nth-child(2) {
+        background-color: royalblue;
+      }
+      section:last-child {
+        background-color: rgb(169, 225, 65);
       }
     </style>
     <main>
