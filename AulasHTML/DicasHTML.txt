@@ -252,6 +252,47 @@ ex:
       </section>
     </main>
 
+Obs: No HTML 5 tem tags novas para melhoria na semântica da tabela no arquivo html
+-> <caption> que define o título da tabela
+-> <thead> que define onde está o cabeçalho
+-> <tbody> que define onde está o corpo da tabela
+-> <tfoot> que define onde está o rodapé
+
+ex:
+<table border="">
+        <caption>
+          Descrição dos serviços respectivos valores
+        </caption>
+        <thead>
+          <tr>
+            <th>Serviços</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Reserva de Hotel</td>
+            <td>R$ 150,00</td>
+          </tr>
+          <tr>
+            <td>Compra de Passagem</td>
+            <td>R$ 100,00</td>
+          </tr>
+          <tr>
+            <td>Aluguel de carros</td>
+            <td>R$ 50,00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Serviço</td>
+            <td>Valor</td>
+          </tr>
+        </tfoot>
+      </table>
+
+
+
 20) iFrame 
 -> Quando queremos referenciar páginas, vídeos dentro do meu navegador
 -> A tag <iFrame é que faz isso 
@@ -301,3 +342,4 @@ ex:
       <source src="videos/rabbit320.mp4" type="video/mp4" />
       <source src="videos/video_rabbit320.webm" type="video/webm" />
 </video>
+
