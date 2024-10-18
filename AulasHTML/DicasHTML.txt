@@ -290,5 +290,14 @@ ex:
     title="Esse input aceita apenas letras, não aceita números nem caracteres especiais"
   />
 
-  23) Dialog (forma de construir pop-up em html)
+23) Dialog (forma de construir pop-up em html)
   -> Vai precisar de javascript
+
+24) Inserir vídeos na página
+-> Para inserir vídeos usar a tag <video
+ex:
+
+<video controls>
+      <source src="videos/rabbit320.mp4" type="video/mp4" />
+      <source src="videos/video_rabbit320.webm" type="video/webm" />
+</video>
