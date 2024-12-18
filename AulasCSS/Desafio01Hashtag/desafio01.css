@@ -1,3 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+main{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+section{
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -17,6 +31,8 @@ h1 {
 h2 {
   font-size: 32px;
   line-height: 1.1;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 h3 {
@@ -25,6 +41,7 @@ h3 {
 }
 
 p {
+  margin: 0;
   font-size: 18px;
   line-height: 1.4;
 }
@@ -42,16 +59,72 @@ a {
   text-decoration-line: underline;
 }
 
+ul{
+  text-align: left;
+  padding-left: 2rem;
+}
+
 li {
   color: #035276;
   font-style: italic;
 }
 
-.realce1{
-  color: #0588c4 ;
+figure {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
-.realce2{
+figure img {
+  width: 30rem;
+}
+
+.realce1 {
+  color: #0588c4;
+}
+
+.realce2 {
   color: #0588c4;
   text-decoration: underline;
+}
+
+.caixa-condicoes {
+  color: aliceblue;
+  background-color: #035276;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container-preco {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.container-dados-precos{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 3.12rem ;
+
+}
+
+.containter-img-precos{
+  display: flex;
+}
+
+.containter-caracteristicas{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.container-dados-caracteristicas{
+  display: flex;
+  align-items: center;
+  gap: 3.12rem ;
 }

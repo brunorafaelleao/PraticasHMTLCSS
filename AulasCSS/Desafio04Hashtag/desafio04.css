@@ -8,6 +8,12 @@ html {
   font-size: 62.5%;
 }
 
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 2.5rem ;
+}
+
 ul {
   list-style: none;
 }
@@ -71,7 +77,6 @@ input{
   color: #112e61;
   font-weight: 600;
   font-size: 1.4rem;
-  display: none;
 }
 
 /* Formatação da seção hero */
@@ -248,7 +253,17 @@ p {
 }
 
 .item-lista-cabecalho-contem-filhos::after {
-  content: "\2bc6";
+/* unicode seta para baixo */
+  content: "\2bc6"; 
+}
+
+
+.item-lista-cabecalho-contem-filhos ul {
+display: none;
+}
+
+.item-lista-cabecalho-contem-filhos:hover ul{
+  display: block;
 }
 
 .meu-cabecalho {
@@ -259,6 +274,10 @@ p {
   top: 0;
   left: 0;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem
 }
 
 .secao-hero {
