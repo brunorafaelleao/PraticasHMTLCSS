@@ -760,9 +760,26 @@ align-items: center;
   background-size: cover;
 }
 
+
+
 .secao-sec-laranja,
 .secao-sec-cinza {
   padding: 7.63rem 2rem;
+}
+
+.container-comoajudar{
+display: flex;
+flex-flow: column;
+align-items: center;
+gap: 2.5rem;
+}
+
+.container-comoajudar2{
+  width: 80rem;
+  display: flex;
+  flex-flow: column;
+  margin-left: 10rem;
+  gap: 1.5rem;
 }
 
 .caixa-como-ajudar-h2 {
@@ -775,11 +792,26 @@ align-items: center;
 }
 
 .como-ajudar-lista {
+  display: flex;
+  flex-flow: column;
+  gap: 1.2rem ;
   border-radius: 2.5rem;
   box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
   padding: 2rem;
   background-color: #f9f9f9;
 }
+
+.como-ajudar-lista li{
+  display: flex;
+  align-items: start;
+  gap: 0.65rem;
+
+}
+
+.como-ajudar-lista li img{
+  transform: translateY(40%);
+}
+
 
 .como-ajudar-lista a:hover,
 .como-ajudar-lista a:active {
@@ -793,6 +825,32 @@ align-items: center;
   background-size: cover;
   color: white;
 }
+
+.container-minicurso{
+  display: flex;
+  flex-flow: column;
+  gap: 3rem;
+  align-items: center;
+
+}
+
+.form-minicurso{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 2rem ;
+}
+
+.form div{
+  display: flex;
+  flex-flow: column;
+  gap: 0.82rem;
+}
+
+.form div label{
+  margin-left: 0.5rem;
+}
+
 
 .botao-minicurso {
   background: #ffba29;
@@ -813,6 +871,35 @@ align-items: center;
   border-right: #ffba29;
   border-bottom: #ffba29;
   box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, 0.3);
+}
+
+.subsecao-rodape,
+.subsecao-assistente,
+.subsecao-cursosonline,
+.rodape-div-iconelink{
+  display: flex;
+  flex-flow: column;
+}
+
+.rodape-div-iconelink{
+  gap: 1.02rem;
+}
+.subsecao-assistente{
+  gap: 1.28rem ;
+}
+.subsecao-rodape{
+  gap: 2rem
+}
+
+.subsecao-cursosonline{
+  gap: 1.6rem;
+}
+
+
+
+.rodape-iconelink{
+display: flex;
+gap: 0.65rem;
 }
 
 .logo-rodape {
