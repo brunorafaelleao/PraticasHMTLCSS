@@ -8,10 +8,10 @@ html {
   font-size: 62.5%;
 }
 
-nav ul{
+nav ul {
   display: flex;
   align-items: center;
-  gap: 2.5rem ;
+  gap: 2.5rem;
 }
 
 ul {
@@ -23,7 +23,7 @@ body {
   color: #404040;
   font-size: 1.6rem;
   line-height: 1.4;
-  background-color: #f4f5f7
+  background-color: #f4f5f7;
 }
 
 /* Formata nosso h1 */
@@ -39,18 +39,15 @@ h2 {
 
 strong {
   font-weight: 600;
-
 }
 
-input{
+input {
   padding: 1.02rem;
   background-color: white;
   box-shadow: inset 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15);
   border: 0;
   border-radius: 0.8rem;
- }
-
-
+}
 
 /* Formatação de cabeçalho */
 .cabecalho-lista a {
@@ -111,17 +108,17 @@ p {
   font-size: 1.9rem;
 }
 
-.hero-btn-ancoras{
+.hero-btn-ancoras {
   display: flex;
   flex-flow: column;
-  gap: 2rem ;
+  gap: 2rem;
 }
 
-.hero-coluna1{
+.hero-coluna1 {
   display: flex;
   flex-flow: column;
   align-items: start;
-  gap: 2rem ;
+  gap: 2rem;
   flex: 6;
 }
 
@@ -202,13 +199,13 @@ p {
   }
 }
 
-.conteudos-titulo{
+.conteudos-titulo {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.caixa-logos{
+.caixa-logos {
   display: flex;
   gap: 0.65rem;
 }
@@ -238,12 +235,11 @@ p {
   }
 }
 
-.caixa-item-diferenciais{
+.caixa-item-diferenciais {
   display: flex;
   flex-flow: column;
   gap: 1.33rem;
 }
-
 
 .h2-oquefalam,
 .h2-comoajudar {
@@ -282,12 +278,10 @@ p {
     color: #008ff7;
     font-weight: 600;
   }
-  a:hover{
+  a:hover {
     color: #0056b3;
   }
 }
-
-
 
 .txt-rodape-principal {
   font-size: 2.2rem;
@@ -316,8 +310,8 @@ p {
 }
 
 .item-lista-cabecalho-contem-filhos::after {
-/* unicode seta para baixo */
-  content: "\2bc6"; 
+  /* unicode seta para baixo */
+  content: "\2bc6";
 }
 
 .item-lista-cabecalho-contem-filhos {
@@ -325,21 +319,20 @@ p {
 }
 
 .item-lista-cabecalho-contem-filhos ul {
-display: none;
-flex-direction: column;
-align-items: start;
-gap: 0.82rem;
-right: 0 ;
-position: absolute;
-width: max-content;
-background-color: white;
-padding: 1.6rem 2rem;
-border-radius: 2.5rem;
-box-shadow: 0 0.33rem 0.4rem rgba(0, 0, 0, 0.15);
-
+  display: none;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.82rem;
+  right: 0;
+  position: absolute;
+  width: max-content;
+  background-color: white;
+  padding: 1.6rem 2rem;
+  border-radius: 2.5rem;
+  box-shadow: 0 0.33rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
-.item-lista-cabecalho-contem-filhos:hover ul{
+.item-lista-cabecalho-contem-filhos:hover ul {
   display: block;
 }
 
@@ -354,10 +347,8 @@ box-shadow: 0 0.33rem 0.4rem rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 3rem
+  gap: 3rem;
 }
-
-
 
 .container {
   max-width: 100rem;
@@ -390,17 +381,17 @@ e vertical de 1.6 e uma inclinação pra cima de -3graus */
   box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
-.caixa-cursos-hash{
+.caixa-cursos-hash {
   display: flex;
   gap: 2rem;
 }
 
-.coluna-principal-conteudos{
-display: flex ;  
-align-items: center;
+.coluna-principal-conteudos {
+  display: flex;
+  align-items: center;
 }
 
-.coluna2-conteudos{
+.coluna2-conteudos {
   display: flex;
   flex-flow: column;
   gap: 2.5rem;
@@ -441,7 +432,7 @@ align-items: center;
   box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
 }
 
-.gratuito-link-lista li{
+.gratuito-link-lista li {
   display: flex;
   align-items: center;
 }
@@ -450,11 +441,18 @@ align-items: center;
   background-color: #f4f5f7;
 }
 
-.p-diferenciais2{
+.p-diferenciais2 {
   flex: 4;
   text-align: right;
   margin-top: 1.2rem;
   color: white;
+}
+
+.bloco-itens-diferenciais {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  margin-top: -5rem;
 }
 
 .caixa-diferenciais-h2 {
@@ -463,7 +461,9 @@ align-items: center;
   padding: 0.52rem 0 0.52rem 2rem;
 }
 
-.container-diferenciais {
+.container-diferenciais,
+.container-blog {
+  max-width: 106rem;
   border-radius: 5rem;
   background-color: white;
   box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
@@ -473,6 +473,7 @@ align-items: center;
 .caixa-titulo-diferenciais {
   display: flex;
   gap: 4.88rem;
+  padding: 12rem;
   background-image: linear-gradient(225deg, #196b9f, #196b9f);
   border-top-left-radius: 5rem;
   border-top-right-radius: 5rem;
@@ -481,7 +482,10 @@ align-items: center;
 }
 
 .caixa-diferenciais-restante {
-  padding: 4.8rem;
+  display: flex;
+  flex-flow: column;
+  gap: 4.88rem;
+  padding: 4.8rem 3.12rem;
 }
 
 .caixa-itens-diferenciais {
@@ -489,12 +493,13 @@ align-items: center;
   flex-flow: column;
   text-align: center;
   gap: 1.6rem;
+  flex: 1;
   position: relative;
   border-radius: 2.5rem;
   border: 1rem;
   border-color: white;
   box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
-  padding: 5rem 2.5rem 3.12rem 2.5rem ;
+  padding: 5rem 2.5rem 3.12rem 2.5rem;
 }
 
 .box-img-diferenciais {
@@ -511,12 +516,20 @@ align-items: center;
   left: 50%;
 }
 
+.bloco-img-diferenciais {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
 .diferenciais-empresas {
   text-align: center;
 }
 
 .diferenciais-empresas img {
-  height: 5rem;
+  height: 4rem;
   filter: grayscale(100%);
   opacity: 50%;
 }
@@ -529,12 +542,37 @@ align-items: center;
   background-size: cover;
 }
 
+.container-oquefalam{
+  display: flex;
+  gap: 3.12rem  ;
+  flex-flow: column;
+  align-items: center;
+}
+
 .oquefalam-titulo {
   color: white;
 }
+.oquefalam-titulo2 {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+
+}
 
 .oquefalam-carrossel {
+  align-self: stretch;
   position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.img-oquefalam-carrossel{
+  display: flex;
+  flex: 1;
+  gap: 2rem ;
+  align-self: stretch ;
 }
 
 .oquefalam-img-carrossel {
@@ -618,15 +656,35 @@ align-items: center;
   box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
-.secao{
+.secao {
   padding: 8rem;
 }
 
-
 /* secao na midia */
-.secao-na-midia{
-  padding-top: 3.9rem ;
-  padding-bottom: 3.9rem ;
+
+.container-namidia{
+display: flex;
+justify-content: space-between;
+gap: 2.5rem;
+}
+
+
+
+.na-midia-links{
+display: flex;
+gap: 2rem;
+align-items: center;
+}
+
+.na-midia-titulo{
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.secao-na-midia {
+  padding-top: 3.9rem;
+  padding-bottom: 3.9rem;
   background-image: url("https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png");
   background-position: 50%;
   background-repeat: no-repeat;
@@ -634,16 +692,19 @@ align-items: center;
 }
 
 .seta-na-midia,
-.h2-na-midia{
+.h2-na-midia {
   display: inline-block;
 }
 
-.secao-blog{
+.secao-blog {
   background-color: #f4f5f7;
   padding: 8rem;
 }
 
-.container-blog{
+.container-blog {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2.5rem ;
   margin-top: 1rem;
   position: relative;
   border-radius: 5rem;
@@ -652,7 +713,7 @@ align-items: center;
   padding: 4.88rem;
 }
 
-.caixa-blog-h2{
+.caixa-blog-h2 {
   font: 3.5rem;
   color: white;
   font-weight: 40rem;
@@ -668,25 +729,31 @@ align-items: center;
   width: max-content;
 }
 
-.caixa-post-blog{
-  display: inline-block;
+.caixa-post-blog {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 35%;
+  gap: 1.28rem; 
   border-radius: 2.5rem;
   box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
-  padding: 2rem ;
-  width: 35% ;
+  padding: 2rem;
   text-decoration: none;
 }
 
-.caixa-post-blog img{
+.caixa-imgpostadoem{
+
+}
+
+.caixa-post-blog img {
   width: 100%;
 }
 
 /* secao como ajudar */
-.secao-como-ajudar{
+.secao-como-ajudar {
   padding: 0;
 }
 
-.secao-sec-laranja{
+.secao-sec-laranja {
   background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-banner-07.png);
   background-position: 50%;
   background-repeat: no-repeat;
@@ -695,40 +762,39 @@ align-items: center;
 
 .secao-sec-laranja,
 .secao-sec-cinza {
-padding: 7.63rem 2rem;
+  padding: 7.63rem 2rem;
 }
 
-.caixa-como-ajudar-h2{
+.caixa-como-ajudar-h2 {
   display: inline-block;
   padding: 0.42rem 1.6rem;
-  color: white  ;
+  color: white;
   border-radius: 1rem;
   box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(90deg, #14a1d5, #1a8ad4)
+  background-image: linear-gradient(90deg, #14a1d5, #1a8ad4);
 }
 
-.como-ajudar-lista{
+.como-ajudar-lista {
   border-radius: 2.5rem;
   box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
-  padding: 2rem ;
+  padding: 2rem;
   background-color: #f9f9f9;
 }
 
-
 .como-ajudar-lista a:hover,
-.como-ajudar-lista a:active{
+.como-ajudar-lista a:active {
   color: #0056b3;
 }
 
-.secao-minicurso{
+.secao-minicurso {
   background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-banner-08_1.png);
   background-position: 50%;
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 
-.botao-minicurso{
+.botao-minicurso {
   background: #ffba29;
   border-radius: 5rem;
   padding: 0.65rem 2.5rem;
@@ -736,47 +802,47 @@ padding: 7.63rem 2rem;
   border: 0;
   border-right: solid 5px #664a10;
   border-bottom: solid 5px #664a10;
-  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, .3);
+  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, 0.3);
 }
 
-.botao-minicurso:hover{
+.botao-minicurso:hover {
   background: #ffba29;
   border-radius: 5rem;
   color: white;
   border: 0;
   border-right: #ffba29;
   border-bottom: #ffba29;
-  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, .3);
+  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, 0.3);
 }
 
-.logo-rodape{
+.logo-rodape {
   width: 18rem;
 }
 
-.rodape a:hover{
-  color: #f60
+.rodape a:hover {
+  color: #f60;
 }
 
-.rodape svg{
+.rodape svg {
   width: 2.4rem;
 }
 
-.link-rodape-redes{
+.link-rodape-redes {
   color: transparent !important;
 }
 
-.link-rodape-redes:hover svg{
-  fill: #f60 ;
+.link-rodape-redes:hover svg {
+  fill: #f60;
 }
 
-.form-newsletter{
+.form-newsletter {
   border-radius: 2.5rem;
   box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
-  padding: 2rem ;
+  padding: 2rem;
   background-color: #f9f9f9;
 }
 
-.botao-enviar-news{
+.botao-enviar-news {
   background: #1a77a4;
   padding: 10px 30px;
   height: 51px;
@@ -788,31 +854,30 @@ padding: 7.63rem 2rem;
   border: 0;
   border-right: solid 5px #0c374d;
   border-bottom: solid 5px #0c374d;
-  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, .3);
+  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, 0.3);
   margin-top: 15px;
 }
 
-.botao-enviar-news:hover{
+.botao-enviar-news:hover {
   background: #1a77a4;
   color: white;
   border: 0;
   border-right: #1a77a4;
   border-bottom: #1a77a4;
-  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, .3);
+  box-shadow: 4px 3px 8px -2px rgba(0, 0, 0, 0.3);
 }
 
-.logo-whatsapp{
+.logo-whatsapp {
   position: fixed;
   right: 1rem;
   bottom: 0.8rem;
   width: 8.5rem;
-
 }
 
-.logo-whatsapp:hover{
+.logo-whatsapp:hover {
   transform: translate(0.5rem, 0.5rem);
 }
 
-.logo-whatsapp img{
+.logo-whatsapp img {
   width: 100%;
 }
